@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-10T08:06:08.841Z",
+        "line": 4,
+        "name": "verify  homepage",
+        "description": "",
+        "id": "sanity-test;verify--homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11556952200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "TestStepDefn.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52493000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify title of the homepage",
+            "match": {
+              "location": "TestStepDefn.verify_title_of_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      }
+    ],
+    "name": "Sanity Test",
+    "description": "",
+    "id": "sanity-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/test.feature",
+    "tags": []
+  }
+]
